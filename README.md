@@ -2,20 +2,14 @@
 
 ## Alfred setting
 
-``` sh
+```sh
 # convert from reference link to inline style
 # /bin/zsh
-query=$1
-
-./convertReferenceLinkToInlineLink.py $query
+./mdLinkConverter.py $1 -i
 ```
 
-
-``` sh
+```sh
 # convert from inline link to reference style
 # /bin/zsh
-query=$1
-
-./convertInlineLinkToReferenceLink.py $query
+./mdLinkConverter.py $1 -r
 ```
-
