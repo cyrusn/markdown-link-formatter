@@ -106,3 +106,5 @@ venv.bak/
 # alfred
 icon.png
 info.plist
+
+.vscode/
